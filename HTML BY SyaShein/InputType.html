@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table{
+            margin-left: auto;
+            margin-right: auto;
+            background-color:darkgoldenrod ;
+            border: 1px solid black;
+            border-radius: 6px;
+
+        }
+
+    
+
+        caption{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+        }
+
+        .center{
+          align-content: center;
+        }
+
+
+    </style>
+   
+</head>
+<body>
+    
+<form action="Customer_Action.html" method="get">
+    
+
+    <table cellpadding="5px" cellspacing="5px">
+        <caption><strong>WELCOME HUMAN</strong> </caption>
+        <tr>
+            <td>Username</td>
+            <td> <input type="text" name="Username" placeholder="Username"/></td>
+        
+        </tr>
+        <tr>
+            <td>Gender</td>
+           
+            <td>
+                <input type="radio" value="Male" name="rdoGender" checked/>Male     
+                <input type="radio" value="FeMale" name="rdoGender" checked/>FeMale
+            </td> 
+        </tr>
+        <tr>
+            <td>Password</td>
+             <td><input type="password" name="Password" placeholder="########"/></td>
+        </tr>
+        <tr>
+            <td> Division</td>
+            <td><select name="cbocity">
+                <option>Yangon</option>
+                <option>mandalay</option>
+             </select></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="3"cols="21"></textarea></td>
+        </tr>
+
+        <tr>
+            <td> <input type="submit"name="btnSubmit" value="register">
+             <input type="reset"name="btnReset" value="Clear"></td>
+    
+        </tr>
+            </table>
+    
+      
+    
+    
+    
+     </form>
+</body>
+</html>

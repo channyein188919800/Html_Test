@@ -1,0 +1,18 @@
+.head,.Unorder{
+    margin-left: 100px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.MiddleList {
+    list-style-type: none;
+  }
+  ul.MiddleList > li {
+    text-indent: -5px;
+  }
+  ul.MiddleList > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
